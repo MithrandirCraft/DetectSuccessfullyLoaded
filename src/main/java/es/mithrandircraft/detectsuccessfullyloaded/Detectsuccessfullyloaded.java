@@ -7,8 +7,7 @@ public final class Detectsuccessfullyloaded extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-        getServer().getPluginManager().registerEvents(new EventRPSuccessfullyLoaded(), this);
         Bukkit.getLogger().info("[Detectsuccessfullyloaded] (!) DEBUG PLUGIN (!) Registering event.");
+        getServer().getPluginManager().registerEvents(new EventRPSuccessfullyLoaded(), this);
     }
 }
