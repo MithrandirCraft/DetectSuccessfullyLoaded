@@ -1,0 +1,7 @@
+name: Detectsuccessfullyloaded
+version: '${project.version}'
+main: es.mithrandircraft.detectsuccessfullyloaded.Detectsuccessfullyloaded
+api-version: 1.20
+authors: [ PixelRain ]
+description: PlayerResourcePackStatusEvent.Status.SUCCESSFULLY_LOADED detection
+website: mithrandircraft.es
